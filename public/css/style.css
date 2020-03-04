@@ -461,6 +461,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: .3s all ease; }
   .sticky-wrapper.is-sticky .site-navbar {
     background-color: #257d54;
+    /* backdrop-filter: saturate(180%) blur(20px); */
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.6);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.6); }
 
@@ -1255,3 +1256,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 700px) {
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .site-blocks-cover h1 {
+    font-size: 22px;
+  }
+  .accordion .accordion-item .accordion-body {
+    border: none;
+  }
+  .block-13 {
+    overflow: hidden;
+  }
+  .site-navbar .site-logo {
+    white-space: nowrap;
+  }
+}

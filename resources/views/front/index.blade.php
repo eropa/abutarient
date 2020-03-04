@@ -142,7 +142,7 @@
 
 
     <div class="site-section  border-bottom">
-        <  <div class="container">
+        <div class="container">
             <div class="row align-items-center mb-5 pb-5">
                 <div class="col-lg-7 img-years mb-5 mb-lg-0">
                     <iframe width="600" height="500" src="https://www.youtube.com/embed/SQccVwYFBpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -170,7 +170,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2 class="font-weight-bold text-black">Общая информация</h2>
-                    <p class="mb-5">********************************************.</p>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             <div class="row">
@@ -292,7 +292,7 @@
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>********************************************************************</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                         </div>
@@ -305,7 +305,7 @@
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>********************************************************************</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +318,7 @@
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>********************************************************************</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +331,7 @@
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>********************************************************************</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                         </div>
@@ -494,28 +494,28 @@
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid">
                 <h3>Иванов Иван Иванович</h3>
                 <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 ********************************************************</em>&rdquo;</p>
+                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
             </div>
 
             <div class="testimony px-5">
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid">
                 <h3>Иванов Иван Иванович</h3>
                 <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 ********************************************************</em>&rdquo;</p>
+                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
             </div>
 
             <div class="testimony px-5">
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid">
                 <h3>Иванов Иван Иванович</h3>
                 <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 ********************************************************</em>&rdquo;</p>
+                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
             </div>
 
             <div class="testimony px-5">
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid">
                 <h3>Иванов Иван Иванович</h3>
                 <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 ********************************************************</em>&rdquo;</p>
+                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
             </div>
 
 
@@ -609,7 +609,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2 class="font-weight-bold text-black">Почему нужно поступать к нам</h2>
-                    <p class="mb-5">***********************************************************</p>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
             </div>
 
