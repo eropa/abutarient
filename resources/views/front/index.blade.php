@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
 
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="{{ asset('fonts/flaticon/font/flaticon.css') }}">
 
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
 
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <style>
         #street-view {
@@ -57,10 +57,7 @@
             <div class="container py-3">
                 <div class="row align-items-center">
                     <div class="col-6">
-                        <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
-                        <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-                        <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
-                        <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+
                     </div>
                     <div class="col-6">
                         <div class="d-flex ml-auto">
@@ -93,29 +90,18 @@
 
                                 <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                                     <li>
-                                        <a href="#home-section" class="nav-link">Home</a>
+                                        <a href="#home-section" class="nav-link">Главная</a>
                                     </li>
-                                    <li class="has-children">
-                                        <a href="#about-section" class="nav-link">About Us</a>
-                                        <ul class="dropdown arrow-top">
-                                            <li><a href="#our-team-section" class="nav-link">Team</a></li>
-                                            <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                                            <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                                            <li class="has-children">
-                                                <a href="#">More Links</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Menu One</a></li>
-                                                    <li><a href="#">Menu Two</a></li>
-                                                    <li><a href="#">Menu Three</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li >
+                                        <a href="#info-section" class="nav-link">РФ ПГУ</a>
                                     </li>
                                     <li>
-                                        <a href="#projects-section" class="nav-link">Projects</a>
+                                        <a href="#smalinfo-section" class="nav-link">Информация</a>
                                     </li>
-                                    <li><a href="#news-section" class="nav-link">News</a></li>
-                                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                                    <li><a href="#stud-section" class="nav-link">СТУДЕНЕСКАЯ ЖИЗНЬ</a></li>
+                                    <li><a href="#sps-section" class="nav-link">Выпусники</a></li>
+                                    <li><a href="#projects-section" class="nav-link">Проекты</a></li>
+
                                     <li><a href="#contact-section" class="nav-link">Contact</a></li>
                                 </ul>
                             </div>
@@ -126,11 +112,12 @@
         </div>
     </div>
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/front.jpg);" data-aos="fade" data-stellar-background-ratio="0.5"id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/front.jpg);" data-aos="fade"
+         data-stellar-background-ratio="0.5"id="home-section">
         <div class="container">
             <div class="row align-items-center text-center justify-content-center">
                 <div class="col-md-8">
-                    <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="play-button d-block">
+                    <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=r1fkm1Z0X4U&feature=youtu.be" class="play-button d-block">
                         <span class="icon-play"></span>
                     </a>
                     <h1 class="text-uppercase">Приветственное слово </h1>
@@ -141,11 +128,11 @@
     </div>
 
 
-    <div class="site-section  border-bottom">
+    <div class="site-section  border-bottom" id="info-section">
         <div class="container">
             <div class="row align-items-center mb-5 pb-5">
                 <div class="col-lg-7 img-years mb-5 mb-lg-0">
-                    <iframe width="600" height="500" src="https://www.youtube.com/embed/SQccVwYFBpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="600" height="500" src="https://www.youtube.com/embed/sWL3kcT1V1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-5 ml-auto">
                     <span class="sub-title">Информация</span>
@@ -155,7 +142,9 @@
                         определенные исследовательские направления, главным образом,
                         в области экономических, социальных и технических наук.</p>
 
-                    <p><a href="#" class="btn btn-primary btn-lg rounded-0">Информация о поступлении</a></p>
+                    <p><a href="http://rfpgu.ru/page.php?40"  target="_blank"
+                          style="background-color: #377d54;border-color:#377d54"
+                          class="btn btn-primary btn-lg rounded-0">Информация о поступлении</a></p>
                 </div>
             </div>
 
@@ -164,88 +153,116 @@
     </div>
 
 
-    <div class="site-section  border-bottom">
+    <div class="site-section  border-bottom" id="smalinfo-section">
 
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2 class="font-weight-bold text-black">Общая информация</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
                     <div class="border p-5 text-center rounded">
                         <h3>Стипендии</h3>
-                        <p class="text-muted mb-4">Виды стипендии</p>
+                        <p class="text-muted mb-4">Виды стипендии которые можно получить в РФ ПГУ</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Стипендия - 1000 руб.</li>
-                            <li>Стипендия - 1000 руб.</li>
-                            <li>Стипендия - 1000 руб.</li>
-                            <li>Стипендия - 1000 руб.</li>
-                            <li>Стипендия - 1000 руб.</li>
+                            <li>Стипендия - <b>1000</b> руб.</li>
+                            <li>Повышеная  - <b>1000</b>  руб.</li>
+                            <li>Ректора ПГУ  - <b>1000</b>  руб.</li>
+                            <li>Президента ПМР - <b>1000</b>руб.</li>
+                            <li>и т.д.</li>
                         </ul>
-                        <a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
+                        <a href="http://spsu.ru/images/files/sveden/Polojenie_stip_fond_28.12.2015.pdf"
+                           target="_blank"
+                           style="background-color: #377d54;border-color:#377d54"
+                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Оплата</h3>
-                        <p class="text-muted mb-4">Оплата за обучения 2019</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>"Направление " <b>1500 руб.</b> </li>
-                            <li>"Направление " <b>1500 руб.</b> </li>
-                            <li>"Направление " <b>1500 руб.</b> </li>
-                            <li>"Направление " <b>1500 руб.</b> </li>
-                            <li>"Направление " <b>1500 руб.</b> </li>
-                        </ul>
-                        <a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
-                    </div>
-                </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
                     <div class="border p-5 text-center rounded">
                         <h3>Льготы</h3>
                         <p class="text-muted mb-4">Оплата за обучения 2019</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Льготы </li>
-                            <li>Льготы </li>
-                            <li>Льготы </li>
-                            <li>Льготы </li>
-                            <li>Льготы </li>
+                            <li>Участникам боевых действий по защите ПМР </li>
+                            <li>Абитуриенты из многодетных семей </li>
+                            <li>Абитуриентам-инвалидам </li>
+                            <li>и т.д.</li>
                         </ul>
-                        <a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
+                        <a href="http://spsu.ru/images/files/sveden/Lgoti_2019.pdf"
+                           target="_blank"
+                           style="background-color: #377d54;border-color:#377d54"
+                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
                     <div class="border p-5 text-center rounded">
-                        <h3>Квоты</h3>
-                        <p class="text-muted mb-4">Квоты за обучения 2019</p>
+                        <h3>Оплата</h3>
+                        <p class="text-muted mb-4">Оплата за обучения 2020</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Квоты  </li>
-                            <li>Квоты  </li>
-                            <li>Квоты  </li>
-                            <li>Квоты  </li>
-                            <li>Квоты  </li>
+                            <li>О/ф  все спецальности кроме пед. обр. в год <b>9202 руб.</b> </li>
+                            <li>О/ф  спецального пед. обр. в год <b>7978 руб.</b> </li>
+                            <li>З/ф  все спецальности кроме пед. обр. в год <b>4601 руб.</b> </li>
+                            <li>З/ф  спецального пед. обр. в год <b>3989 руб.</b> </li>
                         </ul>
-                        <a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
+                        <a href="http://spsu.ru/images/files/sveden/Stoimost_obuch_19.07.2019.pdf"
+                           target="_blank"
+                           style="background-color: #377d54;border-color:#377d54"
+                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
                     </div>
                 </div>
+
+
+
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
                     <div class="border p-5 text-center rounded">
                         <h3>Кафедры</h3>
                         <p class="text-muted mb-4">Кафедры</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Кафедра "**************" </li>
-                            <li>Кафедра "**************" </li>
-                            <li>Кафедра "**************" </li>
-                            <li>Кафедра "**************" </li>
-                            <li>Кафедра "**************" </li>
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?10" style="color:#377d54 ">
+                                    Кафедра Прикладной информатики в экономике
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?6" style="color:#377d54 ">
+                                    Кафедра информатики и программной инженерии
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?7" style="color:#377d54 ">
+                                    Кафедра менеджмента
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?9" style="color:#377d54 ">
+                                    Кафедра "ДЕКОРАТИВНО-ПРИКЛАДНОГО ИСКУССТВА"
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?8" style="color:#377d54 ">
+                                    Кафедра германских языков и методики их преподавания
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?277" style="color:#377d54 ">
+                                    Кафедра автоматизации технологических процессов и производств
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://rfpgu.ru/page.php?251" style="color:#377d54 ">
+                                    Кафедра общенаучных дисциплин﻿
+                                </a>
+                            </li>
+
+
                         </ul>
-                        <a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
                     </div>
                 </div>
 
@@ -254,10 +271,10 @@
                         <h3>Оснащенность</h3>
                         <p class="text-muted mb-4">Оснашенность учебного процесса</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Учебных корпусов - 3 шт </li>
-                            <li>Учебных аудиторий - 100 шт </li>
-                            <li>Компьютерные классы- 12 шт </li>
-                            <li>Учебные лабаратории - 3 шт</li>
+                            <li>Учебных корпусов - 4 шт </li>
+                            <li>Учебных аудиторий - 53 шт </li>
+                            <li>Компьютерные классы - 11 шт </li>
+                            <li>Учебные лабаратории - 5 шт</li>
 
                         </ul>
                     </div>
@@ -271,72 +288,30 @@
     </div>
 
 
-    <div class="site-section" id="faq-section">
+    <div class="site-section" id="stud-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <img src="https://image.freepik.com/free-photo/_1187-3401.jpg" alt="Image" class="img-fluid">
+                    <iframe width="500" height="425" src="https://www.youtube.com/embed/8ZBZnR-7PAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <div class="col-lg-6 ml-auto pl-lg-5">
                     <span class="sub-title">Студенеская жизнь</span>
                     <h2 class="font-weight-bold text-black mb-5">Чем живет студен в РФ ПГУ</h2>
                     <div class="accordion" id="accordionExample">
+                        <p>Студенческая жизнь самая прекрасная пора.
+                        Именно студенческие годы самые интересные и
+                            незабываемые. Это время наполнено романтикой, беззаботностью.</p>
+                        <p>Студенческая жизнь приносит много радости. Сначала человек
+                            радуется тому, когда узнает, что он стал студентом, потом
+                            новые знакомства и друзья. От сессии до сессии живут
+                            студенты весело. А сколько всего еще стоит пережить.</p>
+                        <p>С годами вспоминается все самое лучшее.Именно обучение в РФ ПГУ
+                            позволяет человеку стать высококвалифицированным специалистом.</p>
 
-
-                        <div class="accordion-item">
-                            <h2 class="mb-0 rounded mb-2">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Научные достижения студента?</a>
-                            </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="mb-0 rounded mb-2">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Творческие достижения студента?</a>
-                            </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="mb-0 rounded mb-2">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Спортивные достижения студента?</a>
-                            </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="mb-0 rounded mb-2">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Научные кружки?</a>
-                            </h2>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
+                        <p> Каждый человек, который был студентом, может вспомнить много
+                        интересных историй из студенческой жизни, ведь это самое
+                            интересное время.</p>
 
 
 
@@ -349,173 +324,42 @@
     </div>
 
 
-
-    <div class="site-section  border-bottom">
-
-        <div class="container">
-
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-bold text-black">Заведующие кафедрами</h2>
-                    <p class="mb-5">Интервью заведующих кафедр РФ ПГУ</p>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                                Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                                Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                                Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                                Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                                Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="person">
-                        <div class="bio-img">
-                            <figure>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="social">
-                               Смотерть
-                            </div>
-                        </div>
-                        <h2>Cloe Marena</h2>
-                        <span class="sub-title d-block mb-3">Кафедра "******</span>
-                        <p>Кандидат техничекски наук, доцент</p>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container site-section block-13 testimonial-wrap">
+    <div class="container site-section block-13 testimonial-wrap" id="sps-section">
 
         <div class="row">
             <div class="col-12 text-center">
                 <span class="sub-title">Наши выпускники</span>
-                <h2 class="font-weight-bold text-black mb-5">История успеха</h2>
             </div>
         </div>
 
         <div class="nonloop-block-13 owl-carousel">
 
             <div class="testimony px-5">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <h3>Иванов Иван Иванович</h3>
-                <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
+                <h3>ТИЩЕНКО АЛЕКСАНДР ГРИГОРЬЕВИЧ</h3>
+                <span class="sub-title">Директор филиала МГУП «Тирастеплоэнерго» в г.Рыбница</span>
+                <p>&ldquo;<em>На протяжении учебы вы мужественно, самоотверженно
+                        трудились, дабы выполнить поставленные перед вами
+                        задачи. И вы справились с этим! Благодаря вашим
+                        общим усилиям, вашему коллективному духу я смог
+                        без труда справиться на рабочем месте со
+                        всеми трудностями.</em>&rdquo;</p>
             </div>
 
             <div class="testimony px-5">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <h3>Иванов Иван Иванович</h3>
-                <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
+                <h3>Печерский Игорь Александрович﻿</h3>
+                <span class="sub-title">***</span>
+                <p>&ldquo;<em>Во многом благодаря вам, позволило мне
+                        стремительно развиваться и открывает
+                        для себя новые заманчивые горизонты. </em>&rdquo;</p>
             </div>
 
             <div class="testimony px-5">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <h3>Иванов Иван Иванович</h3>
-                <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
-            </div>
-
-            <div class="testimony px-5">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <h3>Иванов Иван Иванович</h3>
-                <span class="sub-title">Генеральный директор ООО "СТРОПОСТРОЙ"</span>
-                <p>&ldquo;<em>Заверщил учебное заведение 1999 Lorem ipsum dolor sit amet consectetur adipisicing elit.</em>&rdquo;</p>
+                <h3>Луценко Игорь Владимирович</h3>
+                <span class="sub-title">Преподователь кафедры ИиПИ</span>
+                <p>&ldquo;<em>Я помню о том, как  вместе со всеми трудностями
+                        в познания  стойко преодолевали всё ;
+                        как помогали  добрым советом и поддерживали
+                        теплым словом в нужную минуту. </em>&rdquo;</p>
             </div>
 
 
@@ -528,53 +372,32 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2 class="font-weight-bold text-black">Наши проекты</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 project-entry">
                     <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+                        <iframe width="300" height="218" src="https://www.youtube.com/embed/opstbSl9Jcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </a>
-                    <h3 class="mb-0"><a href="#">Butterfly House</a></h3>
-                    <span class="text-muted">Interior</span>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_2.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <h3 class="mb-0"><a href="#">Interior Bed Design</a></h3>
-                    <span class="text-muted">Design</span>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_3.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <h3 class="mb-0"><a href="#">Kitchen Sink Design</a></h3>
-                    <span class="text-muted">Interior</span>
+                    <h3 class="mb-0"><a href="#">Отдел инновационного инжиниринга ПГУ им.Т.Г.Шевченко</a></h3>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_4.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
+                        <iframe width="300" height="218" src="https://www.youtube.com/embed/aaNKJKmyzHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </a>
-                    <h3 class="mb-0"><a href="#">Lobby Interior Design</a></h3>
-                    <span class="text-muted">Interior</span>
+                    <h3 class="mb-0"><a href="#">Презентация курсов Конструирование и пошив одежды кафедры ДПИ</a></h3>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_5.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
+                        <iframe width="300" height="218" src="https://www.youtube.com/embed/TfIKNc5Sh-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </a>
-                    <h3 class="mb-0"><a href="#">Relaxation Room Design</a></h3>
-                    <span class="text-muted">Design</span>
+                    <h3 class="mb-0"><a href="#">Презентация проектной лаборатории кафедры ДПИ</a></h3>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_6.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <h3 class="mb-0"><a href="#">Butterfly House</a></h3>
-                    <span class="text-muted">Interior</span>
-                </div>
+
+
+
             </div>
         </div>
     </div>

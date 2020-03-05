@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'PageController@index');
+
+Route::get('/sss', function (){
+    return view('front.map1');
+});
+
+
