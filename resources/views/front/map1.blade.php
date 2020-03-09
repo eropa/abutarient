@@ -23,7 +23,8 @@
             document.getElementById('street-view'),
             {
                 position: {lat:47.7616757, lng: 29.0017615},
-                pov: {heading: 152.58, pitch: 90},
+                pov: {heading: 152.58, pitch: 9
+                    0},
                 zoom: 1
             });
     }

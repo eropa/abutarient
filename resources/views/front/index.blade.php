@@ -102,7 +102,7 @@
                                     <li><a href="#sps-section" class="nav-link">Выпусники</a></li>
                                     <li><a href="#projects-section" class="nav-link">Проекты</a></li>
 
-                                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                                    <li><a href="#contact-section" class="nav-link">Обратная связь</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -374,7 +374,17 @@
                     <h2 class="font-weight-bold text-black">Наши проекты</h2>
                 </div>
             </div>
+
             <div class="row">
+
+                <div class="col-lg-12 col-md-6 mb-4 project-entry">
+                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
+                        <iframe width="956" height="425" src="https://www.youtube.com/embed/-1TliTpJ4Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </a>
+                    <h3 class="mb-0"><a href="#">Проекты кафедры ПИЭ</a></h3>
+                </div>
+
+
                 <div class="col-lg-4 col-md-6 mb-4 project-entry">
                     <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
                         <iframe width="300" height="218" src="https://www.youtube.com/embed/opstbSl9Jcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -413,12 +423,27 @@
             </div>
             <div class="row">
 
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <div id="street-view"></div>
-                    <a href="images/img_6.jpg" class="d-block figure" data-fancybox="gallery">
-                        <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <h3 class="mb-0"><a href="#">Butterfly House</a></h3>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785016644!6m8!1m7!1sCAoSLEFGMVFpcE5ZRzZkdnd3R0VRNE9EaUFiaThoNjcyRkZuVlVMM1NjOWJ6VUNr!2m2!1d47.76167573854359!2d29.00176148861647!3f136.74603684440243!4f-13.920786541138028!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785202263!6m8!1m7!1sCAoSLEFGMVFpcE8wVnNzU2dnVXpuakt1Xy1hcldPZjJSUlp2RE9TTWVySVdrZy1V!2m2!1d47.76153397561315!2d29.00151807814837!3f270.2767063617399!4f-1.8483358603630222!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785312265!6m8!1m7!1sCAoSLEFGMVFpcE95MThCaUwybUJoZjc2NnVvMHd5R1BZOVJIYnBUeU5PZW9GYk5t!2m2!1d47.7621943!2d29.00167829999999!3f120.99079779641526!4f-20.28571331003056!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785478503!6m8!1m7!1sCAoSLEFGMVFpcFBHaUVaeHl2dkRCcXIzS0hEa2lTS2NONFR1Si1HUjJSS3ZINE1D!2m2!1d47.76200569083174!2d29.00089178234339!3f139.62116138029398!4f-0.3195353876516549!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785561352!6m8!1m7!1sCAoSLEFGMVFpcE83T0cwTEpBQXNsNHlnTnFiWVkzNGlRbWx5X0h1ZjFXQVZlYzZ6!2m2!1d47.76174019660046!2d29.0018905699253!3f212.3636621578127!4f-6.268013665876239!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785370991!6m8!1m7!1sCAoSLEFGMVFpcE11d0hseDUtV04wUkxRVms4NkFwOGJULVRvTGh0M1BacXg1TjNi!2m2!1d47.76188736801825!2d29.00100376456976!3f48.04183111222806!4f-3.928146116819889!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
 
 
@@ -432,7 +457,6 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2 class="font-weight-bold text-black">Почему нужно поступать к нам</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
             </div>
 
@@ -440,10 +464,48 @@
 
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
+                        <div class="mr-3 icon"></div>
                         <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
+                            <h5 class="mt-0">Большое количество бюджетных мест</h5>
+                            РФ ПГУ предоставляет большое количество  бюджетных мест на более 10 программах подготовки
+                            бакалавров, специалистов и магистров. Ни один вуз не может предложить такое количество
+                            мест для бесплатного обучения.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="media custom-media">
+                        <div class="mr-3 icon"></div>
+                        <div class="media-body">
+                            <h5 class="mt-0">Трудоустройство</h5>
+                            РФ ПГУ –  готовят востребованных специалистов на  рынок труда , которые часто
+                            находят работу еще на стадии прохождения практики.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="media custom-media">
+                        <div class="mr-3 icon"></div>
+                        <div class="media-body">
+                            <h5 class="mt-0">Индивидуальный подход </h5>
+                            РФ ПГУ – место  для неравнодушных людей. Мы стремимся участвовать в
+                            образовательной и профессиональной судьбе каждого. Например, помогаем раскрыть
+                            свой творческий потенциал и найти свое призвание в жизни
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="media custom-media">
+                        <div class="mr-3 icon"></div>
+                        <div class="media-body">
+                            <h5 class="mt-0">РФ ПГУ учит общаться </h5>
+                            У большинства вчерашних абитуриентов есть страх выступлений перед публикой.
+                            Университет прекрасно лечит эти комплексы. Другого выхода просто нет: в течение
+                            пяти лет студенты общаются и выступают на семинарах, защищают исследовательские,
+                            курсовые, дипломные работы, выступают на студенческой сцене, в конце концов, сдают сессию.
                         </div>
                     </div>
                 </div>
@@ -451,84 +513,35 @@
 
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
+                        <div class="mr-3 icon"></div>
                         <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
+                            <h5 class="mt-0">Оснащены первоклассным оборудованием </h5>
+                            При крупных университетах всегда работают лаборатории и различные исследовательские центры
+                            с хорошим оборудованием. Это хорошая возможность для тех, кто не хочет ограничиваться лишь
+                            обязательным "лабораторками", для тех, кто хочет попробовать реализовать свой проект,
+                            провести исследовательскую работу.
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
+                        <div class="mr-3 icon"></div>
                         <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
+                            <h5 class="mt-0">Ваш ребёнок под опекой классного руководителя</h5>
+                            За каждой группой закреплён классный руководитель. Но его функции зачастую намного шире
+                            тех же функций, что несёт классный руководитель в школе.Так же, как и в школе, здесь
+                            проводятся родительские собрания, классный руководитель обзванивает студентов, если в
+                            идит надвигающуюся проблему, знает друзей всех своих студентов и помогает решить проблемы с учёбой.
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="media custom-media">
-                        <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-                        <div class="media-body">
-                            <h5 class="mt-0">Причина №</h5>
-                            Описание причины
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -550,14 +563,14 @@
 
                         <div class="row form-group">
                             <div class="col-md-12 mb-3 mb-md-0">
-                                <label class="font-weight-bold" for="fullname">Full Name</label>
-                                <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                                <label class="font-weight-bold" for="fullname">Ф.И.О.</label>
+                                <input type="text" id="fullname" class="form-control" placeholder="Ф.И.О.">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="font-weight-bold" for="email">Email</label>
-                                <input type="email" id="email" class="form-control" placeholder="Email Address">
+                                <input type="email" id="email" class="form-control" placeholder="Email">
                             </div>
                         </div>
 
@@ -565,14 +578,15 @@
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="font-weight-bold" for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+                                <label class="font-weight-bold" for="message">Сообщение</label>
+                                <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                                          placeholder=""></textarea>
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <input type="submit" value="Send Message" class="btn btn-primary rounded-0 btn-lg">
+                                <input type="submit" value="Отправить сообщение" class="btn btn-primary rounded-0 btn-lg">
                             </div>
                         </div>
 
@@ -607,15 +621,22 @@
         panorama = new google.maps.StreetViewPanorama(
             document.getElementById('street-view'),
             {
-                position: {lat: 37.869260, lng: -122.254811},
-                pov: {heading: 165, pitch: 0},
+                position: {lat: 47.7616757, lng: 29.0017615},
+                pov: {heading: 142.41, pitch: 0},
                 zoom: 1
             });
     }
+    //https://www.google.com/maps/@
+    // 47.7616757,29.0017615,
+    // 3a,75y,142.41h,78.74t
+    //AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM
+    //AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM
+
+    // /data=!3m8!1e1!3m6!1sAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk%3Dw203-h100-k-no-pi-0-ya124.075554-ro0-fo100!7i5376!8i2688?hl=ru
 </script>
 
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYuLbOWriS7_vwJ7PxypQveXRBAyY4D6w&callback=initialize">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM&callback=initialize">
 </script>
 
 
