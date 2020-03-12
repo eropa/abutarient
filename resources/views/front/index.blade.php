@@ -237,7 +237,7 @@
                             <li>З/ф  все специальности кроме пед. обр. в год <b>4601 руб.</b> </li>
                             <li>З/ф  специального пед. обр. в год <b>3989 руб.</b> </li>
                         </ul>
-                        <a href="http://spsu.ru/images/files/sveden/Stoimost_obuch_19.07.2019.pdf"
+                        <a href="https://drive.google.com/open?id=18WOe_3p-egXnMoeiIRxpDzVEsWAolC2l"
                            target="_blank"
                            style="background-color: #377d54;border-color:#377d54"
                            class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
