@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>РФ ПГУ  &mdash; Мы раскрываем таланты</title>
+    <title>РФ ПГУ  &mdash; В НОГУ СО ВРЕМЕНЕМ </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -79,7 +79,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-2">
-                        <h1 class="my-0 site-logo"><a href="index.html">
+                        <h1 class="my-0 site-logo"><a href="{{ url('/') }}">
                                 РФ ПГУ
                             </a></h1>
                     </div>
@@ -98,8 +98,8 @@
                                     <li>
                                         <a href="#smalinfo-section" class="nav-link">Информация</a>
                                     </li>
-                                    <li><a href="#stud-section" class="nav-link">СТУДЕНЕСКАЯ ЖИЗНЬ</a></li>
-                                    <li><a href="#sps-section" class="nav-link">Выпусники</a></li>
+                                    <li><a href="#stud-section" class="nav-link">Студенческая жизнь</a></li>
+                                    <li><a href="#sps-section" class="nav-link">Выпускники</a></li>
                                     <li><a href="#projects-section" class="nav-link">Проекты</a></li>
 
                                     <li><a href="#contact-section" class="nav-link">Обратная связь</a></li>
@@ -116,12 +116,11 @@
          data-stellar-background-ratio="0.5"id="home-section">
         <div class="container">
             <div class="row align-items-center text-center justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=r1fkm1Z0X4U&feature=youtu.be" class="play-button d-block">
                         <span class="icon-play"></span>
                     </a>
-                    <h1 class="text-uppercase">Приветственное слово </h1>
-                    <span class="sub-text mb-3 d-block"><em>Директор Рыбницкого филиала ПГУ Павлинов Игорь Алексеевич</em></span>
+                    <h1 class="text-uppercase">В ногу со временем</h1>
                 </div>
             </div>
         </div>
@@ -131,8 +130,33 @@
     <div class="site-section  border-bottom" id="info-section">
         <div class="container">
             <div class="row align-items-center mb-5 pb-5">
+
                 <div class="col-lg-7 img-years mb-5 mb-lg-0">
-                    <iframe width="600" height="500" src="https://www.youtube.com/embed/sWL3kcT1V1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/4_xX4DVEE8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/_vwxxQP2A3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/WCLp056k4xQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/xbtAm8UWP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/F0l12EK4mw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/WrhwSPT1lyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                            <iframe width="296" height="205" src="https://www.youtube.com/embed/hb8-33pOrVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+
+                    </div>
                 </div>
                 <div class="col-lg-5 ml-auto">
                     <span class="sub-title">Информация</span>
@@ -167,10 +191,10 @@
                         <h3>Стипендии</h3>
                         <p class="text-muted mb-4">Виды стипендии которые можно получить в РФ ПГУ</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Стипендия - <b>1000</b> руб.</li>
-                            <li>Повышеная  - <b>1000</b>  руб.</li>
-                            <li>Ректора ПГУ  - <b>1000</b>  руб.</li>
-                            <li>Президента ПМР - <b>1000</b>руб.</li>
+                            <li>Стипендия</li>
+                            <li>Повышенная стипендия</li>
+                            <li>Ректора ПГУ</li>
+                            <li>Президента ПМР </li>
                             <li>и т.д.</li>
                         </ul>
                         <a href="http://spsu.ru/images/files/sveden/Polojenie_stip_fond_28.12.2015.pdf"
@@ -184,7 +208,7 @@
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
                     <div class="border p-5 text-center rounded">
                         <h3>Льготы</h3>
-                        <p class="text-muted mb-4">Оплата за обучения 2019</p>
+                        <p class="text-muted mb-4">Льготы при обучении</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
                             <li>Участникам боевых действий по защите ПМР </li>
                             <li>Абитуриенты из многодетных семей </li>
@@ -203,10 +227,10 @@
                         <h3>Оплата</h3>
                         <p class="text-muted mb-4">Оплата за обучения 2020</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>О/ф  все спецальности кроме пед. обр. в год <b>9202 руб.</b> </li>
-                            <li>О/ф  спецального пед. обр. в год <b>7978 руб.</b> </li>
-                            <li>З/ф  все спецальности кроме пед. обр. в год <b>4601 руб.</b> </li>
-                            <li>З/ф  спецального пед. обр. в год <b>3989 руб.</b> </li>
+                            <li>О/ф  все специальности кроме пед. обр. в год <b>9202 руб.</b> </li>
+                            <li>О/ф  специального пед. обр. в год <b>7978 руб.</b> </li>
+                            <li>З/ф  все специальности кроме пед. обр. в год <b>4601 руб.</b> </li>
+                            <li>З/ф  специального пед. обр. в год <b>3989 руб.</b> </li>
                         </ul>
                         <a href="http://spsu.ru/images/files/sveden/Stoimost_obuch_19.07.2019.pdf"
                            target="_blank"
@@ -214,73 +238,6 @@
                            class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
                     </div>
                 </div>
-
-
-
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Кафедры</h3>
-                        <p class="text-muted mb-4">Кафедры</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?10" style="color:#377d54 ">
-                                    Кафедра Прикладной информатики в экономике
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?6" style="color:#377d54 ">
-                                    Кафедра информатики и программной инженерии
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?7" style="color:#377d54 ">
-                                    Кафедра менеджмента
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?9" style="color:#377d54 ">
-                                    Кафедра "ДЕКОРАТИВНО-ПРИКЛАДНОГО ИСКУССТВА"
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?8" style="color:#377d54 ">
-                                    Кафедра германских языков и методики их преподавания
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?277" style="color:#377d54 ">
-                                    Кафедра автоматизации технологических процессов и производств
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://rfpgu.ru/page.php?251" style="color:#377d54 ">
-                                    Кафедра общенаучных дисциплин﻿
-                                </a>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Оснащенность</h3>
-                        <p class="text-muted mb-4">Оснашенность учебного процесса</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Учебных корпусов - 4 шт </li>
-                            <li>Учебных аудиторий - 53 шт </li>
-                            <li>Компьютерные классы - 11 шт </li>
-                            <li>Учебные лабаратории - 5 шт</li>
-
-                        </ul>
-                    </div>
-                </div>
-
-
 
             </div>
         </div>
@@ -297,7 +254,7 @@
 
                 <div class="col-lg-6 ml-auto pl-lg-5">
                     <span class="sub-title">Студенеская жизнь</span>
-                    <h2 class="font-weight-bold text-black mb-5">Чем живет студен в РФ ПГУ</h2>
+                    <h2 class="font-weight-bold text-black mb-5">Чем живет студент в РФ ПГУ</h2>
                     <div class="accordion" id="accordionExample">
                         <p>Студенческая жизнь самая прекрасная пора.
                         Именно студенческие годы самые интересные и
@@ -306,7 +263,7 @@
                             радуется тому, когда узнает, что он стал студентом, потом
                             новые знакомства и друзья. От сессии до сессии живут
                             студенты весело. А сколько всего еще стоит пережить.</p>
-                        <p>С годами вспоминается все самое лучшее.Именно обучение в РФ ПГУ
+                        <p>С годами вспоминается все самое лучшее. Именно обучение в РФ ПГУ
                             позволяет человеку стать высококвалифицированным специалистом.</p>
 
                         <p> Каждый человек, который был студентом, может вспомнить много
@@ -345,9 +302,21 @@
                         всеми трудностями.</em>&rdquo;</p>
             </div>
 
+
+            <div class="testimony px-5">
+                <h3>Новицкий Станислав Александрович</h3>
+                <span class="sub-title">Начальник ОИТ ЗАО РЦК</span>
+                <p>&ldquo;<em>В РФ ПГУ очень комфортная среда для обучения. Одна библиотека чего стоит!
+                        Там созданы все условия для интересной и продуктивной работы над домашними заданиями
+                        и проектами. Кроме того, в университете выстроены удобные пути коммуникации между
+                        студентами и преподавателями, а иногда даже проходят дружеские встречи с преподавателями,
+                        где с ними можно пообщаться в неформальной обстановке </em>&rdquo;</p>
+            </div>
+
+
             <div class="testimony px-5">
                 <h3>Печерский Игорь Александрович﻿</h3>
-                <span class="sub-title">***</span>
+                <span class="sub-title">Инженер-программист АПБ</span>
                 <p>&ldquo;<em>Во многом благодаря вам, позволило мне
                         стремительно развиваться и открывает
                         для себя новые заманчивые горизонты. </em>&rdquo;</p>
@@ -360,6 +329,13 @@
                         в познания  стойко преодолевали всё ;
                         как помогали  добрым советом и поддерживали
                         теплым словом в нужную минуту. </em>&rdquo;</p>
+            </div>
+            <div class="testimony px-5">
+                <h3>Патлатый Дмитрий Васильевич</h3>
+                <span class="sub-title">Инженер-прогарммист</span>
+                <p>&ldquo;<em>Обучение проходит крайне занимательно, так как упор делается на приобретение практических
+                        навыков. Так, в рамках образовательной программы студенты постоянно решают кейсы,
+                        основанные на действительной практике различных организаций.  </em>&rdquo;</p>
             </div>
 
 
@@ -377,37 +353,26 @@
 
             <div class="row">
 
-                <div class="col-lg-12 col-md-6 mb-4 project-entry">
-                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-                        <iframe width="956" height="425" src="https://www.youtube.com/embed/-1TliTpJ4Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </a>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe width="416" height="295" src="https://www.youtube.com/embed/-1TliTpJ4Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Проекты кафедры ПИЭ</a></h3>
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-                        <iframe width="300" height="218" src="https://www.youtube.com/embed/opstbSl9Jcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </a>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                        <iframe width="416" height="295" src="https://www.youtube.com/embed/opstbSl9Jcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Отдел инновационного инжиниринга ПГУ им.Т.Г.Шевченко</a></h3>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-                        <iframe width="300" height="218" src="https://www.youtube.com/embed/aaNKJKmyzHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </a>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                        <iframe width="416" height="245" src="https://www.youtube.com/embed/aaNKJKmyzHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Презентация курсов Конструирование и пошив одежды кафедры ДПИ</a></h3>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-4 project-entry">
-                    <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-                        <iframe width="300" height="218" src="https://www.youtube.com/embed/TfIKNc5Sh-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </a>
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                        <iframe width="416" height="245" src="https://www.youtube.com/embed/TfIKNc5Sh-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Презентация проектной лаборатории кафедры ДПИ</a></h3>
                 </div>
-
-
-
             </div>
         </div>
     </div>
@@ -422,6 +387,9 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4 project-entry">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785312265!6m8!1m7!1sCAoSLEFGMVFpcE95MThCaUwybUJoZjc2NnVvMHd5R1BZOVJIYnBUeU5PZW9GYk5t!2m2!1d47.7621943!2d29.00167829999999!3f120.99079779641526!4f-20.28571331003056!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
 
                 <div class="col-lg-6 col-md-6 mb-4 project-entry">
                     <iframe src="https://www.google.com/maps/embed?pb=!4v1583785016644!6m8!1m7!1sCAoSLEFGMVFpcE5ZRzZkdnd3R0VRNE9EaUFiaThoNjcyRkZuVlVMM1NjOWJ6VUNr!2m2!1d47.76167573854359!2d29.00176148861647!3f136.74603684440243!4f-13.920786541138028!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -430,9 +398,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!4v1583785202263!6m8!1m7!1sCAoSLEFGMVFpcE8wVnNzU2dnVXpuakt1Xy1hcldPZjJSUlp2RE9TTWVySVdrZy1V!2m2!1d47.76153397561315!2d29.00151807814837!3f270.2767063617399!4f-1.8483358603630222!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
 
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785312265!6m8!1m7!1sCAoSLEFGMVFpcE95MThCaUwybUJoZjc2NnVvMHd5R1BZOVJIYnBUeU5PZW9GYk5t!2m2!1d47.7621943!2d29.00167829999999!3f120.99079779641526!4f-20.28571331003056!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
+
 
                 <div class="col-lg-6 col-md-6 mb-4 project-entry">
                     <iframe src="https://www.google.com/maps/embed?pb=!4v1583785478503!6m8!1m7!1sCAoSLEFGMVFpcFBHaUVaeHl2dkRCcXIzS0hEa2lTS2NONFR1Si1HUjJSS3ZINE1D!2m2!1d47.76200569083174!2d29.00089178234339!3f139.62116138029398!4f-0.3195353876516549!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -528,11 +494,9 @@
                     <div class="media custom-media">
                         <div class="mr-3 icon"></div>
                         <div class="media-body">
-                            <h5 class="mt-0">Ваш ребёнок под опекой классного руководителя</h5>
-                            За каждой группой закреплён классный руководитель. Но его функции зачастую намного шире
-                            тех же функций, что несёт классный руководитель в школе.Так же, как и в школе, здесь
-                            проводятся родительские собрания, классный руководитель обзванивает студентов, если в
-                            идит надвигающуюся проблему, знает друзей всех своих студентов и помогает решить проблемы с учёбой.
+                            <h5 class="mt-0">Ваш ребёнок под опекой куратора</h5>
+                            За каждой группой закреплён куратор. Куратор обзванивает студентов, знает друзей всех своих
+                            студентов и помогает решить проблемы с учёбой.
                         </div>
                     </div>
                 </div>
