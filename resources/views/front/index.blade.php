@@ -129,6 +129,11 @@
 
     <div class="site-section  border-bottom" id="info-section">
         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="font-weight-bold text-black">Поступай к нам !</h2>
+                </div>
+            </div>
             <div class="row align-items-center mb-5 pb-5">
 
                 <div class="col-lg-7 img-years mb-5 mb-lg-0">
@@ -495,7 +500,8 @@
                         <div class="mr-3 icon"></div>
                         <div class="media-body">
                             <h5 class="mt-0">Ваш ребёнок под опекой куратора</h5>
-                            За каждой группой закреплён куратор. Куратор обзванивает студентов, знает друзей всех своих
+                            За каждой группой закреплён куратор. Км
+                            уратор обзванивает студентов, знает друзей всех своих
                             студентов и помогает решить проблемы с учёбой.
                         </div>
                     </div>
