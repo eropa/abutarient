@@ -202,7 +202,7 @@
                             <li>Президента ПМР </li>
                             <li>и т.д.</li>
                         </ul>
-                        <a href="http://spsu.ru/images/files/sveden/Polojenie_stip_fond_28.12.2015.pdf"
+                        <a href="https://docs.google.com/document/d/19OA_LGZRsRCgOZ0iuME6CPUIKjpGRqrtkAfu3MpvjCQ/edit?usp=sharing"
                            target="_blank"
                            style="background-color: #377d54;border-color:#377d54"
                            class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
@@ -220,7 +220,7 @@
                             <li>Абитуриентам-инвалидам </li>
                             <li>и т.д.</li>
                         </ul>
-                        <a href="http://spsu.ru/images/files/sveden/Lgoti_2019.pdf"
+                        <a href="https://docs.google.com/document/d/1OzhYJHyCl15LFE1ngLRLwKhXq64_1omEoN951fCXVvM/edit?usp=sharing"
                            target="_blank"
                            style="background-color: #377d54;border-color:#377d54"
                            class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
@@ -433,7 +433,22 @@
 
             <div class="row">
 
-                <div class="col-lg-4 col-md-6 mb-5">
+
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="media custom-media">
+                        <div class="mr-3 icon"></div>
+                        <div class="media-body">
+                            <h5 class="mt-0">Рядом с домом</h5>
+                            Филиал находится рядом с домом.
+                            Вам не придется расставаться со своей семьей и друзьями. Все близкие люди всегда будут рядом. Вам не придется за ними скучать.
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 mb-5">
                     <div class="media custom-media">
                         <div class="mr-3 icon"></div>
                         <div class="media-body">
@@ -445,7 +460,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
+                <div class="col-lg-3 col-md-6 mb-5">
                     <div class="media custom-media">
                         <div class="mr-3 icon"></div>
                         <div class="media-body">
@@ -456,7 +471,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-5">
+                <div class="col-lg-3 col-md-6 mb-5">
                     <div class="media custom-media">
                         <div class="mr-3 icon"></div>
                         <div class="media-body">
