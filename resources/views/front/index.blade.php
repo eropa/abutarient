@@ -196,11 +196,10 @@
                         <h3>Стипендии</h3>
                         <p class="text-muted mb-4">Виды стипендии которые можно получить в РФ ПГУ</p>
                         <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Стипендия</li>
-                            <li>Повышенная стипендия</li>
-                            <li>Ректора ПГУ</li>
-                            <li>Президента ПМР </li>
-                            <li>и т.д.</li>
+                            <li>Президентская 746.90 руб.</li>
+                            <li>Только оценки  “отлично” 329.80  руб.</li>
+                            <li>Оценки   “хорошо” и “отлично” 252.20 руб.</li>
+                            <li>Оценки “хорошо” 184.30 руб.</li>
                         </ul>
                         <a href="https://docs.google.com/document/d/19OA_LGZRsRCgOZ0iuME6CPUIKjpGRqrtkAfu3MpvjCQ/edit?usp=sharing"
                            target="_blank"
