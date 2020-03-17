@@ -236,7 +236,7 @@
                             <li>З/ф  все специальности кроме пед. обр. в год <b>4601 руб.</b> </li>
                             <li>З/ф  специального пед. обр. в год <b>3989 руб.</b> </li>
                         </ul>
-                        <a href="https://drive.google.com/open?id=18WOe_3p-egXnMoeiIRxpDzVEsWAolC2l"
+                        <a href="https://drive.google.com/file/d/1JdMKeiJCsP5_x7i_hWCUXxXjSJcH2zg9/view?usp=sharing"
                            target="_blank"
                            style="background-color: #377d54;border-color:#377d54"
                            class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
