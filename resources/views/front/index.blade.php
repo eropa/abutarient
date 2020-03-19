@@ -385,12 +385,12 @@
 
 
                 <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                        <iframe width="416" height="295" src="https://www.youtube.com/embed/opstbSl9Jcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="416" height="295" src="https://www.youtube.com/embed/kGHv9sw699Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Отдел инновационного инжиниринга ПГУ им.Т.Г.Шевченко</a></h3>
                 </div>
 
                 <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                        <iframe width="416" height="245" src="https://www.youtube.com/embed/aaNKJKmyzHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="416" height="245" src="https://www.youtube.com/embed/i1fbHaZJrvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="mb-0"><a href="#">Презентация курсов Конструирование и пошив одежды кафедры ДПИ</a></h3>
                 </div>
 
