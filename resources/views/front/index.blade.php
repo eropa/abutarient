@@ -544,6 +544,9 @@
 
 
 
+            </div>
+            <div class="row">
+
 
 
 
@@ -551,6 +554,46 @@
             </div>
         </div>
     </div>
+
+
+
+    <div class="site-section bg-light" id="contact-section1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="font-weight-bold text-black">Информация в соцсетях</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-12">
+                    <a href="https://abiturientu.info/pridnestrove/vuzy/pridnestrovskij-gosudarstvennyj-universitet-im-t-g-shevchenko-rybnitskij-filial"
+                       target="_blank"
+                       style="background-color: #377d54;border-color:#377d54"
+                       class="btn btn-lg btn-primary rounded-0 btn-block">Информация на https://abiturientu.info/</a>
+                </div>
+                <div class="col-md-12 mb-12">
+                    <a href="https://vk.com/karavan.pridnestrovie?w=wall-37512478_2391"
+                       target="_blank"
+                       style="background-color: #377d54;border-color:#377d54"
+                       class="btn btn-lg btn-primary rounded-0 btn-block">ПРИДНЕСТРОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИМ. Т.Г. ШЕВЧЕНКО. РЫБНИЦКИЙ ФИЛИАЛ</a>
+                </div>
+                <div class="col-md-12 mb-12">
+                    <a href="https://vk.com/adv122md?w=wall-74738637_26954%2Fall"
+                       target="_blank"
+                       style="background-color: #377d54;border-color:#377d54"
+                       class="btn btn-lg btn-primary rounded-0 btn-block">ПРИДНЕСТРОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИМ. Т.Г. ШЕВЧЕНКО. РЫБНИЦКИЙ ФИЛИАЛ</a>
+                </div>
+                <div class="col-md-12 mb-12">
+                    <a href="https://ok.ru/karavan.pridnestrovie/topic/151186278731037"
+                       target="_blank"
+                       style="background-color: #377d54;border-color:#377d54"
+                       class="btn btn-lg btn-primary rounded-0 btn-block">ПРИДНЕСТРОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ ИМ. Т.Г. ШЕВЧЕНКО. РЫБНИЦКИЙ ФИЛИАЛ</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <div class="site-section bg-light" id="contact-section">
         <div class="container">
