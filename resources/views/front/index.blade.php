@@ -149,57 +149,7 @@
 
 
     <div class="site-section  border-bottom" id="info-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-bold text-black">Поступай к нам !</h2>
-                </div>
-            </div>
-            <div class="row align-items-center mb-5 pb-5">
-
-                <div class="col-lg-7 img-years mb-5 mb-lg-0">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/4_xX4DVEE8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/_vwxxQP2A3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/WCLp056k4xQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/xbtAm8UWP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/F0l12EK4mw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/WrhwSPT1lyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                            <iframe width="296" height="205" src="https://www.youtube.com/embed/hb8-33pOrVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-lg-5 ml-auto">
-                    <span class="sub-title">Информация</span>
-                    <h3 class="mb-5">Поступление в 2020 году</h3>
-                    <p class="mb-5">Наш Рыбницкий Филиал ПГУ  имеет значительные преимущества, которые базируются на
-                        серьезных позициях в преподавании, в способности осуществлять
-                        определенные исследовательские направления, главным образом,
-                        в области экономических, социальных и технических наук.</p>
-
-                    <p><a href="http://rfpgu.ru/page.php?40"  target="_blank"
-                          style="background-color: #377d54;border-color:#377d54"
-                          class="btn btn-primary btn-lg rounded-0">Информация о поступлении</a></p>
-                </div>
-            </div>
-
-
-        </div>
+        <!-- section1 -->
     </div>
 
 
@@ -681,6 +631,26 @@
     //AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM
 
     // /data=!3m8!1e1!3m6!1sAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk%3Dw203-h100-k-no-pi-0-ya124.075554-ro0-fo100!7i5376!8i2688?hl=ru
+</script>
+
+<script>
+    var showSectionInfo=0;
+    $(window).scroll(function(){
+        let showSectionInfo;
+        let top = $(this).scrollTop()+300;
+        var posInfSect = $("#info-section").offset();
+        console.log(showSectionInfo);
+        if( (posInfSect['top']<top)&&(showSectionInfo==0)){
+            $.get( "/section/1", function( data ) {
+                $( ".result" ).html( data );
+                alert( "Load was performed." );
+                showSectionInfo=1;
+            });
+        }
+        //console.log(posInfSect);
+       // console.log(top);
+
+    });
 </script>
 
 <script async defer

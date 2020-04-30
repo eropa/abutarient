@@ -12,4 +12,14 @@ class PageController extends Controller
     public function index(){
         return view('front.index');
     }
+
+    /**
+     *
+     * @param $id
+     * @return array|string
+     * @throws \Throwable
+     */
+    public function sectID($id){
+        return view('front.section'.$id)->render();
+    }
 }

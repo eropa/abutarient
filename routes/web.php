@@ -17,4 +17,5 @@ Route::get('/sss', function (){
     return view('front.map1');
 });
 
+Route::get('/section/{id}','PageController@sectID');
 
