@@ -155,242 +155,19 @@
 
     <div class="site-section  border-bottom" id="smalinfo-section">
 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-bold text-black">Общая информация</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Стипендии</h3>
-                        <p class="text-muted mb-4">Виды стипендии которые можно получить в РФ ПГУ</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Президентская 746.90 руб.</li>
-                            <li>Только оценки  “отлично” 329.80  руб.</li>
-                            <li>Оценки   “хорошо” и “отлично” 252.20 руб.</li>
-                            <li>Оценки “хорошо” 184.30 руб.</li>
-                        </ul>
-                        <a href="https://docs.google.com/document/d/19OA_LGZRsRCgOZ0iuME6CPUIKjpGRqrtkAfu3MpvjCQ/edit?usp=sharing"
-                           target="_blank"
-                           style="background-color: #377d54;border-color:#377d54"
-                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Льготы</h3>
-                        <p class="text-muted mb-4">Льготы при обучении</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>Участникам боевых действий по защите ПМР </li>
-                            <li>Абитуриенты из многодетных семей </li>
-                            <li>Абитуриентам-инвалидам </li>
-                            <li>и т.д.</li>
-                        </ul>
-                        <a href="https://docs.google.com/document/d/1OzhYJHyCl15LFE1ngLRLwKhXq64_1omEoN951fCXVvM/edit?usp=sharing"
-                           target="_blank"
-                           style="background-color: #377d54;border-color:#377d54"
-                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div class="border p-5 text-center rounded">
-                        <h3>Оплата</h3>
-                        <p class="text-muted mb-4">Оплата за обучения 2020</p>
-                        <ul class="list-unstyled ul-check text-left success mb-5">
-                            <li>О/ф  все специальности кроме пед. обр. в год <b>9202 руб.</b> </li>
-                            <li>О/ф  специального пед. обр. в год <b>7978 руб.</b> </li>
-                            <li>З/ф  все специальности кроме пед. обр. в год <b>4601 руб.</b> </li>
-                            <li>З/ф  специального пед. обр. в год <b>3989 руб.</b> </li>
-                        </ul>
-                        <a href="https://drive.google.com/file/d/1JdMKeiJCsP5_x7i_hWCUXxXjSJcH2zg9/view?usp=sharing"
-                           target="_blank"
-                           style="background-color: #377d54;border-color:#377d54"
-                           class="btn btn-lg btn-primary rounded-0 btn-block">Скачать</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
     </div>
 
 
-    <div class="site-section" id="stud-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <iframe width="500" height="425" src="https://www.youtube.com/embed/8ZBZnR-7PAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-                <div class="col-lg-6 ml-auto pl-lg-5">
-                    <span class="sub-title">Студенеская жизнь</span>
-                    <h2 class="font-weight-bold text-black mb-5">Чем живет студент в РФ ПГУ</h2>
-                    <div class="accordion" id="accordionExample">
-                        <p>Студенческая жизнь самая прекрасная пора.
-                        Именно студенческие годы самые интересные и
-                            незабываемые. Это время наполнено романтикой, беззаботностью.</p>
-                        <p>Студенческая жизнь приносит много радости. Сначала человек
-                            радуется тому, когда узнает, что он стал студентом, потом
-                            новые знакомства и друзья. От сессии до сессии живут
-                            студенты весело. А сколько всего еще стоит пережить.</p>
-                        <p>С годами вспоминается все самое лучшее. Именно обучение в РФ ПГУ
-                            позволяет человеку стать высококвалифицированным специалистом.</p>
-
-                        <p> Каждый человек, который был студентом, может вспомнить много
-                        интересных историй из студенческой жизни, ведь это самое
-                            интересное время.</p>
+    <div class="site-section" id="stud-section"></div>
 
 
+    <div class="container site-section block-13 testimonial-wrap" id="sps-section"></div>
 
 
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="site-section" id="projects-section"></div>
 
 
-    <div class="container site-section block-13 testimonial-wrap" id="sps-section">
-
-        <div class="row">
-            <div class="col-12 text-center">
-                <span class="sub-title">Наши выпускники</span>
-            </div>
-        </div>
-
-        <div class="nonloop-block-13 owl-carousel">
-
-            <div class="testimony px-5">
-                <h3>ТИЩЕНКО АЛЕКСАНДР ГРИГОРЬЕВИЧ</h3>
-                <span class="sub-title">Директор филиала МГУП «Тирастеплоэнерго» в г.Рыбница</span>
-                <p>&ldquo;<em>На протяжении учебы вы мужественно, самоотверженно
-                        трудились, дабы выполнить поставленные перед вами
-                        задачи. И вы справились с этим! Благодаря вашим
-                        общим усилиям, вашему коллективному духу я смог
-                        без труда справиться на рабочем месте со
-                        всеми трудностями.</em>&rdquo;</p>
-            </div>
-
-
-            <div class="testimony px-5">
-                <h3>Новицкий Станислав Александрович</h3>
-                <span class="sub-title">Начальник ОИТ ЗАО РЦК</span>
-                <p>&ldquo;<em>В РФ ПГУ очень комфортная среда для обучения. Одна библиотека чего стоит!
-                        Там созданы все условия для интересной и продуктивной работы над домашними заданиями
-                        и проектами. Кроме того, в университете выстроены удобные пути коммуникации между
-                        студентами и преподавателями, а иногда даже проходят дружеские встречи с преподавателями,
-                        где с ними можно пообщаться в неформальной обстановке </em>&rdquo;</p>
-            </div>
-
-
-            <div class="testimony px-5">
-                <h3>Печерский Игорь Александрович﻿</h3>
-                <span class="sub-title">Инженер-программист АПБ</span>
-                <p>&ldquo;<em>Во многом благодаря вам, позволило мне
-                        стремительно развиваться и открывает
-                        для себя новые заманчивые горизонты. </em>&rdquo;</p>
-            </div>
-
-            <div class="testimony px-5">
-                <h3>Луценко Игорь Владимирович</h3>
-                <span class="sub-title">Преподователь кафедры ИиПИ</span>
-                <p>&ldquo;<em>Я помню о том, как  вместе со всеми трудностями
-                        в познания  стойко преодолевали всё ;
-                        как помогали  добрым советом и поддерживали
-                        теплым словом в нужную минуту. </em>&rdquo;</p>
-            </div>
-            <div class="testimony px-5">
-                <h3>Патлатый Дмитрий Васильевич</h3>
-                <span class="sub-title">Инженер-прогарммист</span>
-                <p>&ldquo;<em>Обучение проходит крайне занимательно, так как упор делается на приобретение практических
-                        навыков. Так, в рамках образовательной программы студенты постоянно решают кейсы,
-                        основанные на действительной практике различных организаций.  </em>&rdquo;</p>
-            </div>
-
-
-        </div>
-    </div>
-
-
-    <div class="site-section" id="projects-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-bold text-black">Наши проекты</h2>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe width="416" height="295" src="https://www.youtube.com/embed/-1TliTpJ4Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="mb-0"><a href="#">Проекты кафедры ПИЭ</a></h3>
-                </div>
-
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                        <iframe width="416" height="295" src="https://www.youtube.com/embed/kGHv9sw699Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="mb-0"><a href="#">Отдел инновационного инжиниринга ПГУ им.Т.Г.Шевченко</a></h3>
-                </div>
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                        <iframe width="416" height="245" src="https://www.youtube.com/embed/i1fbHaZJrvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="mb-0"><a href="#">Презентация курсов Конструирование и пошив одежды кафедры ДПИ</a></h3>
-                </div>
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                        <iframe width="416" height="245" src="https://www.youtube.com/embed/TfIKNc5Sh-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="mb-0"><a href="#">Презентация проектной лаборатории кафедры ДПИ</a></h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="site-section" id="projects-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="font-weight-bold text-black">Онлайн экскурсии</h2>
-                    <p class="mb-5">Ты можешь пройтись по коридорам РФ ПГУ</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785312265!6m8!1m7!1sCAoSLEFGMVFpcE95MThCaUwybUJoZjc2NnVvMHd5R1BZOVJIYnBUeU5PZW9GYk5t!2m2!1d47.7621943!2d29.00167829999999!3f120.99079779641526!4f-20.28571331003056!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785016644!6m8!1m7!1sCAoSLEFGMVFpcE5ZRzZkdnd3R0VRNE9EaUFiaThoNjcyRkZuVlVMM1NjOWJ6VUNr!2m2!1d47.76167573854359!2d29.00176148861647!3f136.74603684440243!4f-13.920786541138028!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785202263!6m8!1m7!1sCAoSLEFGMVFpcE8wVnNzU2dnVXpuakt1Xy1hcldPZjJSUlp2RE9TTWVySVdrZy1V!2m2!1d47.76153397561315!2d29.00151807814837!3f270.2767063617399!4f-1.8483358603630222!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785478503!6m8!1m7!1sCAoSLEFGMVFpcFBHaUVaeHl2dkRCcXIzS0hEa2lTS2NONFR1Si1HUjJSS3ZINE1D!2m2!1d47.76200569083174!2d29.00089178234339!3f139.62116138029398!4f-0.3195353876516549!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785561352!6m8!1m7!1sCAoSLEFGMVFpcE83T0cwTEpBQXNsNHlnTnFiWVkzNGlRbWx5X0h1ZjFXQVZlYzZ6!2m2!1d47.76174019660046!2d29.0018905699253!3f212.3636621578127!4f-6.268013665876239!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-                <div class="col-lg-6 col-md-6 mb-4 project-entry">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1583785370991!6m8!1m7!1sCAoSLEFGMVFpcE11d0hseDUtV04wUkxRVms4NkFwOGJULVRvTGh0M1BacXg1TjNi!2m2!1d47.76188736801825!2d29.00100376456976!3f48.04183111222806!4f-3.928146116819889!5f0.7820865974627469" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
+    <div class="site-section" id="projects_map"></div>
 
 
     <div class="site-section" id="services-section">
@@ -613,49 +390,79 @@
 <script src="js/main.js"></script>
 
 
-<script>
-    var panorama;
-    function initialize() {
-        panorama = new google.maps.StreetViewPanorama(
-            document.getElementById('street-view'),
-            {
-                position: {lat: 47.7616757, lng: 29.0017615},
-                pov: {heading: 142.41, pitch: 0},
-                zoom: 1
-            });
-    }
-    //https://www.google.com/maps/@
-    // 47.7616757,29.0017615,
-    // 3a,75y,142.41h,78.74t
-    //AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM
-    //AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM
 
-    // /data=!3m8!1e1!3m6!1sAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNYG6dvwwGEQ4ODiAbi8h672FFnVUL3Sc9bzUCk%3Dw203-h100-k-no-pi-0-ya124.075554-ro0-fo100!7i5376!8i2688?hl=ru
-</script>
 
 <script>
     var showSectionInfo=0;
+    var showSectionAboutIfno=0;
+    var showSectionStudIfno=0;
+    var showSectionPop=0;
+    var showSectionProject=0;
+    var showSectionMap=0;
     $(window).scroll(function(){
         let showSectionInfo;
         let top = $(this).scrollTop()+300;
         var posInfSect = $("#info-section").offset();
-        console.log(showSectionInfo);
-        if( (posInfSect['top']<top)&&(showSectionInfo==0)){
+        var smalinfo_section = $("#smalinfo-section").offset();
+        var stud_section= $("#stud-section").offset();
+        if( (posInfSect['top']<top)&&(window.showSectionInfo==0)){
+            window.showSectionInfo=1;
             $.get( "/section/1", function( data ) {
-                $( ".result" ).html( data );
-                alert( "Load was performed." );
-                showSectionInfo=1;
+                //console.log(data);
+                $( "#info-section" ).html( data );
             });
         }
-        //console.log(posInfSect);
-       // console.log(top);
+        if( (smalinfo_section['top']<top)&&(window.showSectionAboutIfno==0)){
+            window.showSectionAboutIfno=1;
+            $.get( "/section/2", function( data ) {
+                //console.log(data);
+                $( "#smalinfo-section" ).html( data );
+            });
+        }
 
+        if( (stud_section['top']<top)&&(window.showSectionStudIfno==0)){
+            window.showSectionStudIfno=1;
+            $.get( "/section/3", function( data ) {
+                //console.log(data);
+                $( "#stud-section" ).html( data );
+            });
+        }
+
+
+        var sps_section= $("#sps-section").offset();
+        if( (sps_section['top']<top)&&(window.showSectionPop==0)){
+            window.showSectionPop=1;
+            $.get( "/section/4", function( data ) {
+                //console.log(data);
+                $( "#sps-section" ).html( data );
+            });
+        }
+
+        var projects_section= $("#projects-section").offset();
+        if( (projects_section['top']<top)&&(window.showSectionProject==0)){
+            window.showSectionProject=1;
+            $.get( "/section/5", function( data ) {
+                //console.log(data);
+                $( "#projects-section" ).html( data );
+            });
+        }
+
+        var projects_section= $("#projects_map").offset();
+        if( (projects_section['top']<top)&&(window.showSectionMap==0)){
+            window.showSectionMap=1;
+            $.get( "/section/6", function( data ) {
+                //console.log(data);
+                $( "#projects_map" ).html( data );
+            });
+        }
+       /* console.log(posInfSect);
+        console.log(top);
+        console.log(window.showSectionInfo);
+        */
     });
 </script>
 
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA74ycMbTzXoHIMyijviaL0hpFWE4o8dxM&callback=initialize">
-</script>
+
 
 
 </body>
