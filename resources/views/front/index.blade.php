@@ -141,7 +141,7 @@
                     <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=r1fkm1Z0X4U&feature=youtu.be" class="play-button d-block">
                         <span class="icon-play"></span>
                     </a>
-                    <h1 class="text-uppercase">В ногу со временем</h1>
+                    <h1 class="text-uppercase" style="color:red">Поступайте в Рыбницкий филиал ПГУ им.Т.Г.Шевченко</h1>
                 </div>
             </div>
         </div>
