@@ -138,11 +138,11 @@
         <div class="container">
             <div class="row align-items-center text-center justify-content-center">
                 <div class="col-md-12">
-                    <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=r1fkm1Z0X4U&feature=youtu.be" class="play-button d-block">
+                    <a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=4_xX4DVEE8U&list=PLnXfUcxmBIZZ4LBqkqowTFAfACr0-ybCC" class="play-button d-block">
                         <span class="icon-play"></span>
                     </a>
                     <blink>
-                    <h1 class="text-uppercase"   style="color:red">Поступайте в Рыбницкий филиал ПГУ им.Т.Г.Шевченко</h1>
+                    <h1 class="text-uppercase"   style="color:red">Поступайте в Рыбницкий филиал ПГУ им.Т.Г.Шевченко в 2021 году</h1>
                     </blink>
                 </div>
             </div>
